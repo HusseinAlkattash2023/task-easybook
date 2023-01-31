@@ -1,0 +1,170 @@
+.home{
+    margin-top: 30px;
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    position: absolute;
+    right: 280px;
+    border-radius: 40px;
+}
+
+.home h2{
+    color:#fff;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.home .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .plot{
+    position: relative;
+    right:80px;
+    bottom:60px;
+    width:400px;
+}
+
+.home .plot p{
+    text-align: right;
+    color: #72B01D;
+    font-weight: 700;
+}
+
+.home .plot img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #72B01D;
+}
+
+.home .info{
+    width:450px;
+    position: relative;
+    right: 40px;
+    text-align: right;
+    top: 50px;
+}
+
+.home .fields{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    left:40px;
+    bottom: 12px;
+}
+
+.home .info .item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.home .info .item .code{
+    background-color: #3F7D20;
+    color: #fff;
+    width:120px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    height: 36px;
+    border: 2px solid #72B01D;
+}
+.home .info .item .text{
+    color: #72B01D;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+
+.home .buttons button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+    top:260px;
+    left: 10px;
+}
+
+/*--responsive-----*/
+@media only screen and (max-width: 1300px){
+    .home .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home{
+        height: 1200px;
+        margin-bottom: 100px;
+        width: 70%;
+        position: relative;
+        top:30px;
+    }
+    .home h2{
+        padding-top: 30px;
+    }
+    .home .plot{
+        position: relative;
+        left:50%;
+        top:100px;
+    }
+    .home .plot p{
+        text-align: center;
+    }
+
+    .home .buttons button{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        position: relative;
+        top:200px;
+    }
+
+    .home .info{
+        width:450px;
+        position: relative;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .home{
+        height: 1150px;
+        width: 70%;
+        position: relative;
+        right:150px;
+        z-index: -1;
+    }
+    .home .buttons button{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        position: relative;
+        top:150px;
+        left:50%;
+        transform: translate(-50%);
+    }
+}
+
+@media only screen and (max-width: 778px){
+    .home .plot{
+        position: relative;
+        right:30px;
+    }
+
+    .home .info{
+        width:450px;
+        position: relative;
+        right: 20px;
+    }
+}

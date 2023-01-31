@@ -1,0 +1,14 @@
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.buttons button{
+    width: 120px;
+}
+
+@media only screen and (max-width: 778px){
+    .buttons button{
+        width: 100px;
+    }
+}

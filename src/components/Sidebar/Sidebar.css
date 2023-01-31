@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 260px;
+    height: 120vh;
+    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.container .top_section{
+    display: flex;
+}
+
+.container .top_section .bars .image1{
+    position: relative;
+    right: 20px;
+    top:15px
+}
+.container .top_section .bars .image2{
+    position: relative;
+    left: 30px;
+    top:15px;
+}
+
+.container .top_section .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .top_section .logo .image1{
+    width: 150px;
+    margin-top: 80px;
+    text-align: center;
+    margin-right: 20px;
+}
+.container .top_section .logo .image2{
+    width: 70px;
+    margin-top: 50px;
+    position: relative;
+    right: 15px;
+    top: 20px;
+}
+.container .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container .link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 18px;
+    background: #454955;
+    box-shadow: -2px 2px 6px 2px rgba(87, 82, 82, 0.17), inset 0px 0px 4px 1px rgba(243, 239, 245, 0.12);
+    border-radius: 15px;
+    height: 46px;
+    cursor: pointer;
+}
+.container .link .image1{
+    width: 36px;
+    height: 38px;
+}
+
+.container .link .image2{
+    width: 36px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .link .link_text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color:#fff;
+}
+
+@media only screen and (max-width: 950px){
+    .container{
+        border: 2px solid #3F7D20;
+    }
+}

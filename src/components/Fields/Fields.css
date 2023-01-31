@@ -1,0 +1,45 @@
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 4px 0px;
+}
+
+.field .name{
+    color: #72B01D;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:110px ;
+    position: relative;
+    top:6px;
+}
+
+.field .image{
+    background-color: #3F7D20;
+    color: #fff;
+    width:330px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    height: 36px;
+    position: absolute;
+    left:0;
+    border: 2px solid #72B01D;
+}
+.field .image div{
+    background-color: #0D0A0B;
+    width:34px;
+    height: 34px;
+    display:grid;
+    place-items: center;
+    border-radius: 10px;
+    border: 2px solid #72B01D;
+    position: absolute;
+    left:0px;
+}
